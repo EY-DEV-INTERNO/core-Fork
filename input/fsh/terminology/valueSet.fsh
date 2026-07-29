@@ -5,11 +5,13 @@ Id: vs-add-use-it
 Title: "Address use"
 Description: "Insieme dei valori ammessi per qualificare **address.use**, ossia il tipo di utilizzo di un indirizzo."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.4.68"
 
 * $cs-addr-use-org#home "Residenza"
 * $cs-addr-use-org#work "Lavoro"
 * $cs-addr-use-org#temp "Domicilio temporaneo"
-* $cs-addr-use-org#old  "old"
+* $cs-addr-use-org#old "old"
 * $cs-addr-use-org#billing "Indirizzo di Fatturazione"
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -18,6 +20,8 @@ Id: vs-role-code-it
 Title: "Role Code"
 Description: "Insieme di codici che identificano il ruolo professionale svolto da un operatore sanitario all'interno dei sistemi sanitari e nei flussi informativi."
 * ^experimental = false
+//* ^identifier.system = "urn:ietf:rfc:3986"
+//* ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.4.68"
 * include codes from system $cs-role-it
 
 * ^expansion.timestamp = "2024-06-01T12:00:00Z"
