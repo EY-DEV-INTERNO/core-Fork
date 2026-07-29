@@ -81,10 +81,13 @@ Alias: $vs-whoatc = http://hl7.it/fhir/itcore/ValueSet/vs-whoatc
 //Alias: $cs-whoatc = http://www.whocc.no/atc
 Alias: $cs-whoatc = http://hl7.it/fhir/itcore/CodeSystem/aifa-atc
 //Alias: $vs-aifa-ge = https://hl7.it/fhir/itcore/ValueSet/vs-aifa-ge
+Alias: $vs-aifa-ge = http://hl7.it/fhir/itcore/ValueSet/vs-aifa-ge
 Alias: $cs-aifa-ge = http://hl7.it/fhir/itcore/CodeSystem/aifa-gruppo-equivalenza
 Alias: $vs-nullFlavor = http://terminology.hl7.org/ValueSet/v3-NullFlavor
 Alias: $cs-nullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 //Alias: $vs-aifa-aic = https://www.hl7.it/fhir/terminology/ValueSet/aifa-aic
+Alias: $cs-aifaAIC = http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic
+Alias: $vs-aifaAIC = http://hl7.it/fhir/itcore/ValueSet/aifa-aic
 Alias: $ext-originalText = http://hl7.org/fhir/StructureDefinition/originalText
 
 //Organization

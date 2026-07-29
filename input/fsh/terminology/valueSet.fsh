@@ -8848,3 +8848,11 @@ Description: "ValueSet che raccoglie i codici ISTAT delle province italiane util
 * include codes from system $cs-provincia
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsAifaAic
+Id: aifa-aic
+Title: "AIC - Autorizzazione Immissione in Commercio"
+Description: "ValueSet che comprende i codici di Autorizzazione all'Immissione in Commercio (AIC) definiti da AIFA. Poiché il sistema di codifica è gestito da AIFA, l'elenco completo dei codici deve essere reperito tramite le fonti ufficiali di AIFA"
+* ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
+* include codes from system $cs-aifaAIC

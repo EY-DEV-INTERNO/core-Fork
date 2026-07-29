@@ -917,3 +917,12 @@ Description: "ISTAT - Province"
 * #092	"Cagliari"
 * #095	"Oristano"
 * #111	"Sud Sardegna"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsAifaAic
+Id: cs-aifa-aic
+Title: "AIFA - Autorizzazione Immissione in Commercio"
+Description: "Sistema di codifica AIC (Autorizzazione all'Immissione in Commercio) gestito da AIFA. Questo CodeSystem è dichiarato esclusivamente a fini di interoperabilità e non include i concetti. I codici validi devono essere reperiti attraverso le fonti ufficiali pubblicate dall'Agenzia Italiana del Farmaco."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present //si rinvia a https://www.aifa.gov.it/
