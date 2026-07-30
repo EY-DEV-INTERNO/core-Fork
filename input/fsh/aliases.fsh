@@ -103,7 +103,7 @@ Alias: $cs-aziendaOspedaliera = http://hl7.it/fhir/itcore/CodeSystem/minsan-hsp
 //Alias: $vs-struttura = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStrutture
 //Alias: $vs-strutturaInterna = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStruttureInterne 
 //Alias: $cs-strutturaInterna = https://www.hl7.it/fhir/terminology/CodeSystem/cs-mds-idStruttureInterne
-
 //Alias: $vs-tipoOrg = https://www.hl7.it/fhir/terminology/ValueSet/tipoOrgSocioSanitaria
 Alias: $CS-tipoEntita = http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita
-
+Alias: $mds-struttureinterne = http://hl7.it/fhir/itcore/CodeSystem/cs-mds-idStruttureInterne
+Alias: $CF = http://hl7.it/fhir/itcore/CodeSystem/cs-codicefiscale

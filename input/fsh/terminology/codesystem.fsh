@@ -926,3 +926,14 @@ Description: "Sistema di codifica AIC (Autorizzazione all'Immissione in Commerci
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #not-present //si rinvia a https://www.aifa.gov.it/
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceFiscale
+Id: cs-codicefiscale
+Title: "CF - Codice Fiscale / Partita IVA"
+Description: "CodeSystem che identifica il dominio dei Codici Fiscali italiani. I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.3.2"
