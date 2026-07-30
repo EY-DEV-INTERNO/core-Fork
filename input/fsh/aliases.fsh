@@ -47,6 +47,12 @@ Alias: $cs-istat-statoNascita = http://hl7.it/fhir/itcore/CodeSystem/istat-unita
 Alias: $cs-istat-comune = http://hl7.it/fhir/itcore/CodeSystem/istat-unitaAmministrativeTerritoriali
 //Alias: $vs-istat-comune = https://www.hl7.it/fhir/terminology/ValueSet/istat-comune
 Alias: $vs-istat-comune = http://hl7.it/fhir/itcore/ValueSet/vs-istatcomune
+Alias: $CF = http://hl7.it/fhir/itcore/CodeSystem/cs-codicefiscale
+Alias: $ANPR = http://hl7.it/fhir/itcore/CodeSystem/cs-anpr
+Alias: $ENI = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-eni
+Alias: $ANA = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-ana
+Alias: $TEAM = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-team
+Alias: $STP = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-stp
 
 //Practitioner e PractitionerRole
 //Alias: $cs-role-it = https://www.hl7.it/fhir/terminology/CodeSystem/it-V3RoleCode
@@ -106,4 +112,3 @@ Alias: $cs-aziendaOspedaliera = http://hl7.it/fhir/itcore/CodeSystem/minsan-hsp
 //Alias: $vs-tipoOrg = https://www.hl7.it/fhir/terminology/ValueSet/tipoOrgSocioSanitaria
 Alias: $CS-tipoEntita = http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita
 Alias: $mds-struttureinterne = http://hl7.it/fhir/itcore/CodeSystem/cs-mds-idStruttureInterne
-Alias: $CF = http://hl7.it/fhir/itcore/CodeSystem/cs-codicefiscale
