@@ -23,6 +23,7 @@ Description: "Questo profilo definisce una persona direttamente o indirettamente
 * identifier[codiceFiscale].system = $CF 
 * identifier[codiceFiscale].value 1..
 * identifier[codiceFiscale].assigner only Reference(OrganizationItCore)
+* identifier[codiceFiscale].value ^short = "Valorizzazione del Codice Fiscale"
 
 //----------------------ID Regionale-----------------------
 // * identifier[idRegionale]
@@ -37,6 +38,7 @@ Description: "Questo profilo definisce una persona direttamente o indirettamente
 * identifier[codiceANA].system 1..
 * identifier[codiceANA].system = $ANA
 * identifier[codiceANA].value 1..
+* identifier[codiceANA].value ^short = "Valorizzazione del codice ANA"
 * identifier[codiceANA].assigner only Reference(OrganizationItCore)
 
 //----------------------Altro------------------------------
