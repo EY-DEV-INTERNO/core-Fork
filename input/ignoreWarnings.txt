@@ -212,3 +212,65 @@ There are multiple different potential matches for the url 'http://hl7.org/fhir/
 
 There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.4.0'
 
+The link 'StructureDefinition-narrativeLink.html' for "narrativeLink extension" cannot be resolved
+
+Error from https://tx.fhir.org/r4: Error: The cache 'bdba68b6-89da-4aad-9e0a-8e6a6ffd3fe9' was never issued by this server, and this server has no record of it ever existing. Caches are created with $cache-control?mode=start, and a cache-id is only valid on the server instance and endpoint that issued it - either it was issued somewhere else, or this server has restarted since it was issued
+
+This property has only a code ('regione') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('flagCapoluogo') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('comune') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('provincia') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('ripartizioneGeografica') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('continente') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('regione') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('comune') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('aslTerritoriale') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('codiceAzienda') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('tipoStruttura') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('naturaGiuridica') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+The resource StructureDefinition/recordCertification could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/procedure-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/practitionerRole-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/practitioner-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-qualification-it could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-occupation-it could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-codeableBirthPlace could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/organization-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/medication-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/coverage-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+
+The resource StructureDefinition/coverage-exceptionStatus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/address-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.4.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+
+The resource StructureDefinition/address-dug could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ImplementationGuide/hl7.fhir.it.core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
